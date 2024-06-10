@@ -5,12 +5,12 @@ import PropsComp from './components/PropsComp'
 import ShortProps from './components/ShortProps'
 
 function App() {
-  let p = "This is a props"
+  let prop = "This is a props"
   return (
     <>
       <h1>Hello React</h1>
       <FuncComp />
-      <PropsComp propsName={p} propsAlso="It is also props" 
+      <PropsComp propsName={prop} propsAlso="It is also props" 
         object={{
           name: "Sairoon",
           age: 24,
